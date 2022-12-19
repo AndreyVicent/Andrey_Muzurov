@@ -1,0 +1,22 @@
+body {
+	background-color: #E0FFFF;
+}
+div {
+	background-color: #7FFFD4;
+	margin: auto;
+	width: 800px;
+}
+
+h4 {
+	text-decoration: line-through;
+}
+
+span {
+	color: grey;
+}
+
+table {
+	color: black;
+	border-collapse: collapse;
+	margin: auto;
+}
