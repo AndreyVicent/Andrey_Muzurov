@@ -1,0 +1,164 @@
+body {
+	background-color: black;
+}
+
+.conteiner {
+	width: 1200px;
+	margin: auto;
+}
+
+header { 
+	height: 60px;
+	display: flex;
+	background-color: #2F3136;
+	margin-top: 15px;
+	border-radius: 6px;
+ }
+
+.Logo {
+	font-size: 20px;
+	font-family: Arial;
+	margin: auto;
+	margin-left: 15px;
+	color: #0000CD;
+}
+
+.menu {
+	display: flex;
+	list-style-type: none;
+	color: white;
+}
+
+li {
+	font-size: 15px;
+	font-family: Arial;
+	padding: 5px;
+	padding-right: 15px;
+}
+
+main { 
+	display: flex;
+ }
+
+.vertpanel {
+	height: 230px;
+	width: 160px;
+	background-color: #2F3136;
+	margin-top: 15px;
+	border-radius: 6px;
+}
+
+.menu2 {
+	height: 200px;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+}
+
+.text {
+	padding: 10px;
+	padding-top: 20px;
+	font-size: 15px;
+	font-family: Arial;
+
+}
+
+.vertpanel1 {
+	height: 230px;
+	width: 160px;
+	background-color: #2F3136;
+	margin-top: 15px;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+}
+
+.square {
+	height: 200px;
+	width: 130px;
+	background-color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 6px;
+}
+
+.mainsquare {
+	height: 380px;
+	width: 1025px;
+	background-color: #2F3136;
+	border-radius: 6px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.notmainsquare {
+	height: 350px;
+	width: 300px;
+	border-radius: 6px;
+	background-color: white;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float:left;
+
+}
+
+.text2 {
+	padding: 100px;
+	padding-left: 400px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 15px;
+	color:white;
+}
+
+.mainsquare2 {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	width: 1025px;
+	background-color: #2F3136;
+	border-radius: 6px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.rowsquare {
+ 	border-radius: 6px;
+ 	background-color: white;
+    height: 80px;
+    width: 160px;
+    margin: 50px;
+}
+
+.mainsquare3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 300px;
+	width: 1025px;
+	background-color: #2F3136;
+	border-radius: 6px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.rowsquare1 {
+	border-radius: 6px;
+ 	background-color: white;
+    height: 80px;
+    width: 160px;
+    margin: 50px;
+}
