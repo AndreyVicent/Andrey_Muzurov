@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial;
+}
+
+body {
+    font-size: 18px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 32px;
+    width: 100%;
+    max-width:1280px;
+    margin: 10px auto;
+}
+
+.osnpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-width:1280px;
+}
+
+.navigat {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 20px;
+    padding: 0px;
+    gap: 83px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.sign-in {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 20px;
+    width: 111px;
+    height: 36px;
+    color: white;
+    background: #156963;
+}
+
+.sign-up {
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #156963;
+    padding: 8px 0;
+    width: 111px;
+    height: 36px;
+}
+
+.plant {
+    width: 608px;
+    height: 740px;
+}
+
+.osnpage2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 685px;
+    top: 186px;
+    width: 519px;
+    height: 286px;
+    gap: 24px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 83px;
+    color: #156963;
+}
+
+.text1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2C1500;
+    opacity: 0.8;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 260px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.twotxt, .fourtxt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.onetxt, .threetxt {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    opacity: 0.7;
+}
+
+.threetxt {
+    color: #F2F2F2;
+}
+
+.twotxt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+}
+
+.fourtxt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.onetxt:before {
+    content: url('../img/arrow2.png');
+    margin-right: 10px;
+}
+
+.buttons2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 160px;
+    background-color:#156963;
+}
+
+.rightbtn {
+    height: 63px;
+}
+
+.threetxt::after {
+    content: url('../img/arrow1.png');
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    margin-right: 30px;
+}
+
+.card1 {
+  padding: 10px;
+  border: 1px solid #E0E0E0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+h4 {
+  color: #156963;
+  width: 200px;
+  margin-left: 10px;
+  font-size:  22px;
+  margin-top: 10px;
+}
+
+.textcust{
+    margin-top: 0px;
+}
+
+
+.card1 p {
+    color: #2C1500;
+    width: 240px;
+    height: 70px;
+    font-size: 14px;
+    opacity: 0.6;
+    padding-top: 5px;
+}
+
+.card1 img{
+    position: relative;
+    max-height: 50px;
+    max-width: 50px;
+    margin: 5px 0 0 5px;
+}
+
+.cactusi{
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.featured_item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.cheaper_item {
+    border: 1px solid gray;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.cheaper_item::after {
+    content: "˅";
+    margin-left: 10px;
+}
+
+.line {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    background: gray;
+    height: 1px;
+    opacity: 0.6;
+}
+
+.kaktusi {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.kaktus p {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+}
+
+.IDR {
+    font-weight: 600;
+    text-align: center;
+}
+
+.relaxinf{
+    width: 100%;
+    max-width: 1208px;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    height: 610px;
+}
+
+.relaxcontent{
+    width: 522px; 
+    position: absolute;
+    top: 0;
+    left: 0;   
+    margin: 10px 23px;
+}
+
+.relaxnazvan{
+    color: #2C1500;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.relaxtext{
+    color: #2C1500;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+.rightimg{
+    position: absolute;
+    right: 0;
+}
+
+.bottomimg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.favorbox{
+    width: 100%;
+    max-width: 1208px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F4F6;;
+}
+
+.contentfavor{
+    display: flex;
+    flex-direction: column;
+    margin: 88px 0 0 97px;
+    width: 583px;
+}
+
+.favornazvan{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;  
+    color: #2C1500;
+}
+
+.favorbtn{
+    background-color: #156963;
+    padding: 10px 42px;
+    color: white;
+    margin-top: 32px;
+    width: 30%;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 1280px;
+    height: 268px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.logofooter{
+    width: 112px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #156963;
+
+}
+
+.plantku{
+    width: 115px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333; 
+    margin-top: 24px;
+}
+
+.footertext{
+    width: 282px;
+    max-width: 1208px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.foottext1{
+    width: 92px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: black; 
+}
+
+.foottext2{
+    width: 93px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    margin-top: 20px;
+}
+
+.foottext3{
+    width: 95px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;  
+    margin-top: 14px;
+}
+
+.foottext4{
+    width: 56px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+
+}
+
+.foottext5{
+    width: 62px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    margin-top: 20px;
+}
+
+.foottext6{
+    width: 95px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    margin-top: 14px;
+}
+
+.E-mail{
+    width: 199px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.leftblockfooter{
+    margin-left: 167px;
+}
+
+.rightblockfooter{
+    margin-right: 167px;
+}
+
+.footerE-mail{
+    margin-top: 14px;
+}
+
+.footbtn {
+    padding: 4px 12px;
+    border-radius: 2px;
+    background-color: #156963;
+    color: #fff;
+    width: 51px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 14px;
+}
